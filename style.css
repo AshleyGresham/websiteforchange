@@ -1,6 +1,130 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
+    width: 100%;
+    background-color: #0c2510;
+    color: rgb(235, 243, 238);
+    position: relative;
+}
+body{
+    background-color: #0c2510;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 10%;
+    position:absolute;
+    background-color: white;
+}
+.navbuttons{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.navbuttons button {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #0c2510;
+    border-right:2px solid #0c2510;
+    cursor: pointer;  
+}
+.logo {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    margin-top: 10px;
+}   
+.top {
+    position: absolute;
+    font-size: 80px;
+    margin-top: 15%;
+    margin-left: 25px;
+}
+.bottom {
+    position: absolute;
+    font-size: 80px;
+    margin-top: 21%;
+    margin-left: 25px;
+}
+h3 {
+    position:absolute;
+    font-size: 27px;
+    margin-top: 28%;
+    margin-left: 25px;
+    color: rgb(237, 239, 238);
+}
+.headimage {
+    width: 98%;
+    margin:1%
+}
+.section1 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.statsheader {
+    font-size: 40px;
+    margin-top: 1%;
+    color: Black;
+    text-align:center;
+}
+.questions{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: -1%;
+    padding-bottom: 1%;
+    margin-top: -1%;
+    text-align: left;
+}
+.stattext {
+    font-size: 25px;
+    margin-top:- 1%;
+    color: black;
+    text-align: left;
+    width: 50%;
+}
+.statimage {
+    width: 600px;
+    height: auto;
+}   
+.statbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* space between text and image */
+    margin-bottom: 30px;
+}
+
+.conservationheader{
+    font-size: 40px;
+    margin-top: 1%;
+    margin-left: 49%;
+    color:white;
+    text-align:left;
+}
+.conservationtext {
+    font-size: 25px;
     color: white;
-    padding: 128px 16px;
+    margin-right: 1%;
+    text-align: left;
+    width: 50%;
+}
+.conservationimage {
+    width: 600px;
+    margin-top: -4%;
+    margin-left:1%;
+    height: auto;
+}
+.conservationbody {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* space between text and image */
+    margin-bottom: 30px;
 }
